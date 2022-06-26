@@ -1,0 +1,89 @@
+/* 
+---------------------------------------------
+testimonials
+--------------------------------------------- 
+*/
+
+section.testimonials {
+    position: relative;
+  }
+  
+  section.testimonials:before {
+    position: absolute;
+    content: '';
+    background-image: url(../../../assets/images/testimonials-left-dec.png);
+    left: 0px;
+    top: -140px;
+    width: 593px;
+    height: 352px;
+    z-index: 1;
+  }
+  
+  section.testimonials:after {
+    position: absolute;
+    content: '';
+    background-image: url(../../../assets/images/testimonials-right-dec.png);
+    right: 0px;
+    bottom: -140px;
+    width: 632px;
+    height: 352px;
+    z-index: 1;
+  }
+  
+  .testimonials .item {
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #fff;
+    margin: 15px;
+    transition: all .3s;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .testimonials .item:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  .testimonials .item p {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  .testimonials .item h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+  }
+  
+  .testimonials .item span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #dc8cdb;
+  }
+  
+  .testimonials .item img {
+    max-width: 44px;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    bottom: 30px
+  }
+  
+  .testimonials .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .testimonials .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0px 4px;
+  }
+  
+  .testimonials .owl-dots .active {
+    background-color: #dc8cdb;
+  }
+  

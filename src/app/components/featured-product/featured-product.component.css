@@ -1,0 +1,86 @@
+/*
+---------------------------------------------
+our services page
+---------------------------------------------
+*/
+
+section.featured-product {
+    position: relative;
+  }
+  
+  section.featured-product:before {
+    position: absolute;
+    content: '';
+    background-image: url(../../../assets/images/testimonials-left-dec.png);
+    left: 0px;
+    top: -140px;
+    width: 593px;
+    height: 352px;
+    z-index: 1;
+  }
+  
+  section.featured-product:after {
+    position: absolute;
+    content: '';
+    background-image: url(../../../assets/images/testimonials-right-dec.png);
+    right: 0px;
+    bottom: -140px;
+    width: 632px;
+    height: 352px;
+    z-index: 1;
+  }
+  
+  section.featured-product .info-item {
+    border-radius: 15px;
+    text-align: left;
+    padding: 60px 30px 30px 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+    position: relative;
+    margin-bottom: 90px;
+  }
+  
+  section.featured-product .last-info {
+    margin-bottom: 0px;
+  }
+  
+  section.featured-product .left-info .info-item .icon {
+    right: 30px;
+    top: -30px;
+  }
+  
+  section.featured-product .left-info .info-item {
+    text-align: right;
+  }
+  
+  section.featured-product .right-info .info-item .icon {
+    left: 30px;
+    top: -30px;
+  }
+  
+  section.featured-product .info-item .icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  section.featured-product .info-item .icon img {
+    max-width: 60%;
+  }
+  
+  section.featured-product .info-item h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  section.featured-product .product-image {
+    margin: 0px 60px;
+  }
+  
